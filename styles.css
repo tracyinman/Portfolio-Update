@@ -58,7 +58,11 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+}
+
+.selected {
+    color: white;
 }
 
 header {
@@ -199,8 +203,7 @@ a.social:hover {
 }
 
 .no-image a:hover {
-    color: #0399ff
-    
+    color: #0399ff;    
 }
 
 /** Images **/
