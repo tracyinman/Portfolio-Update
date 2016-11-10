@@ -183,8 +183,12 @@ a.social:hover {
 }
 
 .exp p, .contact p {
-    padding: 0 10px;
+    padding: 0 20px;
     
+}
+
+.contact2 p {
+    padding: 0 10px;
 }
 
 
