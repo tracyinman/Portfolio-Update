@@ -40,7 +40,7 @@ a:hover {
   padding: 0;
 }
 
-.name, .location, .exp, .contact {
+.name, .location, .exp, .contact, .contact2 {
     font-family: 'Ranga';
     font-size: 1.50rem;
     font-weight: 400;
