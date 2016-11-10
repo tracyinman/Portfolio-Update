@@ -40,6 +40,12 @@ a:hover {
   padding: 0;
 }
 
+.name, .location, .exp {
+    font-family: 'Ranga';
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+
 .nav .name {
     display: block;
     margin-right: auto;
@@ -57,7 +63,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Casarabonela.jpg') no-repeat top center ;
+  background: url('images/Casarabonela.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -80,14 +86,11 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #222;
-  color: yellow;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -95,11 +98,11 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 30px 5px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -166,6 +169,15 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/** Experience Page **/
+
+.exp {
+    line-height: 1;
+  text-align: center;
+  padding-top: 60px;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
