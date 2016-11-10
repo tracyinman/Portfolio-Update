@@ -40,7 +40,7 @@ a:hover {
   padding: 0;
 }
 
-.name, .location, .exp {
+.name, .location, .exp, .contact {
     font-family: 'Ranga';
     font-size: 1.50rem;
     font-weight: 400;
@@ -170,16 +170,36 @@ a.social:hover {
   clear: both;
 }
 
-/** Experience Page **/
+/** Experience/Contact Page **/
 
-.exp {
+.exp, .contact {
     line-height: 1;
   text-align: center;
   padding-top: 60px;
 }
 
-.exp p {
+.exp p, .contact p {
     padding: 0 10px;
+    
+}
+
+
+.no-image {
+    background-image: none;
+}
+
+.no-image li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.no-image a{
+     color: #222;
+    font-style: italic;   
+}
+
+.no-image a:hover {
+    color: #0399ff
     
 }
 
