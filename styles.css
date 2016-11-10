@@ -178,6 +178,19 @@ a.social:hover {
   padding-top: 60px;
 }
 
+.exp p {
+    padding: 0 10px;
+    
+}
+
+/** Images **/
+
+.img {
+    max-width: 50%;
+    Float: left;
+    padding-right: 10px;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
